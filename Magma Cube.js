@@ -8,5 +8,4 @@ ServerEvents.recipes(event => {
         .input('18x minecraft:slime_ball')
         .input('64x minecraft:basalt')
         .input('64x minecraft:blackstone')
-        .recipeTime(200)
-        .blockBelow('minecraft:furnace', { lit: true })})
+        .recipeTime(200)})
