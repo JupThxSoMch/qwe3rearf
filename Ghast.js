@@ -7,5 +7,4 @@ ServerEvents.recipes(event => {
         .input('16x minecraft:arrow')
         .input('16x minecraft:gunpowder')
         .input('32x minecraft:soul_sand')
-        .recipeTime(200)
-        .blockBelow('minecraft:furnace', { lit: true })})
+        .recipeTime(200)})
