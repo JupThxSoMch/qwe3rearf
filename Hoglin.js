@@ -8,5 +8,4 @@ ServerEvents.recipes(event => {
         .input('16x minecraft:rotten_flesh')
         .input('8x minecraft:crimson_fungus')
         .input('4x minecraft:crimson_roots')
-        .recipeTime(200)
-        .blockBelow('minecraft:furnace', { lit: true })})
+        .recipeTime(200)})
