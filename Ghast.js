@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.recipes.summoningrituals.altar(Ingredient.of("#forge:ingots"))
+    event.recipes.summoningrituals.altar(Ingredient.of("iron_block"))
         .mobOutput(
             SummoningOutput.mob('ghast')
         )
